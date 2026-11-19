@@ -48,6 +48,11 @@ jobs:
         with:
           path: .
 
+      # Pages artifact metadata can take a few seconds to become queryable.
+      # This avoids an intermittent "No artifacts named github-pages" race.
+      - name: Wait for Pages artifact metadata
+        run: sleep 12
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
