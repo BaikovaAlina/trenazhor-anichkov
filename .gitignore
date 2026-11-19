@@ -1,0 +1,7 @@
+# Generated locally or by GitHub Actions — never commit the real bot token
+js/config.js
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
