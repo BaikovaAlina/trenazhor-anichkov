@@ -1,0 +1,1417 @@
+[
+  {
+    "id": "alg-calc-1",
+    "lessonId": "alg-calc",
+    "type": "input",
+    "prompt": "Вычислите: 3,6 − 1,75 + 0,4.",
+    "answer": "2.25",
+    "explanation": "Сначала 3,6 + 0,4 = 4, затем 4 − 1,75 = 2,25.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-calc-2",
+    "lessonId": "alg-calc",
+    "type": "input",
+    "prompt": "Вычислите: −7 + 15 − 12.",
+    "answer": "-4",
+    "explanation": "−7 + 15 = 8, а 8 − 12 = −4.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-calc-3",
+    "lessonId": "alg-calc",
+    "type": "input",
+    "prompt": "Раскройте скобки и упростите: 4(2x − 3) − 5x. Введите коэффициент при x.",
+    "answer": "3",
+    "explanation": "8x − 12 − 5x = 3x − 12, коэффициент равен 3.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-calc-4",
+    "lessonId": "alg-calc",
+    "type": "input",
+    "prompt": "Какое значение имеет выражение 2a + 3b при a = −2, b = 5?",
+    "answer": "11",
+    "explanation": "2·(−2) + 3·5 = −4 + 15 = 11.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-calc-5",
+    "lessonId": "alg-calc",
+    "type": "choice",
+    "prompt": "Выберите верное равенство.",
+    "answer": "a",
+    "explanation": "При умножении на отрицательное число знак неравенства меняется.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "Если −2x > 6, то x < −3"
+      },
+      {
+        "key": "b",
+        "text": "Если −2x > 6, то x > −3"
+      },
+      {
+        "key": "c",
+        "text": "Если −2x > 6, то x < 3"
+      },
+      {
+        "key": "d",
+        "text": "Если −2x > 6, то x > 3"
+      }
+    ]
+  },
+  {
+    "id": "alg-identities-1",
+    "lessonId": "alg-identities",
+    "type": "input",
+    "prompt": "Разложите на множители: x² − 49. Введите выражение без пробелов, например (x-7)(x+7).",
+    "answer": "(x-7)(x+7)",
+    "explanation": "Это разность квадратов: x² − 7² = (x − 7)(x + 7).",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-identities-2",
+    "lessonId": "alg-identities",
+    "type": "input",
+    "prompt": "Упростите: (a + 5)² − a². Введите выражение без пробелов.",
+    "answer": "10a+25",
+    "explanation": "Раскрываем скобки: a² + 10a + 25 − a² = 10a + 25.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-identities-3",
+    "lessonId": "alg-identities",
+    "type": "input",
+    "prompt": "Вычислите без калькулятора: 101² − 99².",
+    "answer": "400",
+    "explanation": "Разность квадратов: (101−99)(101+99)=2·200=400.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-identities-4",
+    "lessonId": "alg-identities",
+    "type": "choice",
+    "prompt": "Какой многочлен равен (x − 3)²?",
+    "answer": "b",
+    "explanation": "(x − 3)² = x² − 6x + 9.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "x² − 9"
+      },
+      {
+        "key": "b",
+        "text": "x² − 6x + 9"
+      },
+      {
+        "key": "c",
+        "text": "x² + 6x + 9"
+      },
+      {
+        "key": "d",
+        "text": "x² − 3x + 9"
+      }
+    ]
+  },
+  {
+    "id": "alg-identities-5",
+    "lessonId": "alg-identities",
+    "type": "input",
+    "prompt": "Найдите x, если (x + 2)² = 49 и x > 0.",
+    "answer": "5",
+    "explanation": "Из x + 2 = ±7 получаем x=5 или x=−9. По условию подходит 5.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-fractions-1",
+    "lessonId": "alg-fractions",
+    "type": "input",
+    "prompt": "Вычислите: 3/4 + 5/6. Введите дробь или десятичную запись.",
+    "answer": "19/12",
+    "explanation": "НОК 4 и 6 равен 12: 9/12 + 10/12 = 19/12.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-fractions-2",
+    "lessonId": "alg-fractions",
+    "type": "input",
+    "prompt": "Сократите дробь 42/56.",
+    "answer": "3/4",
+    "explanation": "НОД числителя и знаменателя равен 14: 42/56 = 3/4.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-fractions-3",
+    "lessonId": "alg-fractions",
+    "type": "input",
+    "prompt": "Упростите: (x² − 9)/(x − 3), если x ≠ 3.",
+    "answer": "x+3",
+    "explanation": "x²−9=(x−3)(x+3); сокращаем общий множитель x−3.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-fractions-4",
+    "lessonId": "alg-fractions",
+    "type": "input",
+    "prompt": "Решите уравнение: x/5 = 3/10.",
+    "answer": "1.5",
+    "explanation": "Умножаем обе части на 5: x = 5·3/10 = 1,5.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-fractions-5",
+    "lessonId": "alg-fractions",
+    "type": "input",
+    "prompt": "Какое значение x нельзя подставлять в дробь 7/(x + 4)?",
+    "answer": "-4",
+    "explanation": "Знаменатель не должен быть равен нулю: x + 4 ≠ 0.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-powers-1",
+    "lessonId": "alg-powers",
+    "type": "input",
+    "prompt": "Вычислите: 2⁵ · 2³ / 2⁶.",
+    "answer": "4",
+    "explanation": "При умножении складываем показатели, при делении вычитаем: 2^(5+3−6)=2²=4.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-powers-2",
+    "lessonId": "alg-powers",
+    "type": "input",
+    "prompt": "Вычислите √196.",
+    "answer": "14",
+    "explanation": "14² = 196, поэтому главный квадратный корень равен 14.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-powers-3",
+    "lessonId": "alg-powers",
+    "type": "input",
+    "prompt": "Запишите 0,00072 в стандартном виде: число перед знаком умножения на 10 в степени. Введите только показатель степени.",
+    "answer": "-4",
+    "explanation": "0,00072 = 7,2·10⁻⁴.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-powers-4",
+    "lessonId": "alg-powers",
+    "type": "input",
+    "prompt": "Упростите: √(81a²), если a ≥ 0.",
+    "answer": "9a",
+    "explanation": "√81 · √(a²) = 9·a, так как a неотрицательно.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-powers-5",
+    "lessonId": "alg-powers",
+    "type": "choice",
+    "prompt": "Какое из чисел больше?",
+    "answer": "c",
+    "explanation": "√50 примерно 7,07, значит оно больше 7 и меньше 8.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "6"
+      },
+      {
+        "key": "b",
+        "text": "7"
+      },
+      {
+        "key": "c",
+        "text": "√50"
+      },
+      {
+        "key": "d",
+        "text": "невозможно сравнить"
+      }
+    ]
+  },
+  {
+    "id": "alg-equations-1",
+    "lessonId": "alg-equations",
+    "type": "input",
+    "prompt": "Решите уравнение: 4x − 7 = 21.",
+    "answer": "7",
+    "explanation": "4x=28, значит x=7.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-equations-2",
+    "lessonId": "alg-equations",
+    "type": "input",
+    "prompt": "Решите уравнение: 3(x − 2) = 2x + 5.",
+    "answer": "11",
+    "explanation": "3x−6=2x+5, откуда x=11.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-equations-3",
+    "lessonId": "alg-equations",
+    "type": "input",
+    "prompt": "Решите систему: x + y = 9, x − y = 3. Введите x.",
+    "answer": "6",
+    "explanation": "Складываем уравнения: 2x=12, поэтому x=6, y=3.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-equations-4",
+    "lessonId": "alg-equations",
+    "type": "choice",
+    "prompt": "Сколько решений у уравнения 0·x = 5?",
+    "answer": "a",
+    "explanation": "Ноль никогда не равен пяти, решений нет.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "0"
+      },
+      {
+        "key": "b",
+        "text": "1"
+      },
+      {
+        "key": "c",
+        "text": "2"
+      },
+      {
+        "key": "d",
+        "text": "бесконечно много"
+      }
+    ]
+  },
+  {
+    "id": "alg-equations-5",
+    "lessonId": "alg-equations",
+    "type": "input",
+    "prompt": "Найдите сумму решений уравнения 2x + 8 = 0.",
+    "answer": "-4",
+    "explanation": "2x=−8, единственное решение x=−4.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-advanced-equations-1",
+    "lessonId": "alg-advanced-equations",
+    "type": "input",
+    "prompt": "Решите уравнение: x² − 5x + 6 = 0. Введите меньший корень.",
+    "answer": "2",
+    "explanation": "x²−5x+6=(x−2)(x−3), корни 2 и 3.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-advanced-equations-2",
+    "lessonId": "alg-advanced-equations",
+    "type": "input",
+    "prompt": "Решите уравнение: x² = 64. Введите сумму всех корней.",
+    "answer": "0",
+    "explanation": "Корни 8 и −8; их сумма равна 0.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-advanced-equations-3",
+    "lessonId": "alg-advanced-equations",
+    "type": "input",
+    "prompt": "Решите: 1/x = 1/4.",
+    "answer": "4",
+    "explanation": "При x≠0 обратные величины равны, значит x=4.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-advanced-equations-4",
+    "lessonId": "alg-advanced-equations",
+    "type": "input",
+    "prompt": "В системе x + y = 10, xy = 21 найдите большее x, если x ≥ y.",
+    "answer": "7",
+    "explanation": "Ищем числа с суммой 10 и произведением 21: 7 и 3.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-advanced-equations-5",
+    "lessonId": "alg-advanced-equations",
+    "type": "choice",
+    "prompt": "Какой корень посторонний для уравнения √(x + 1) = x − 1?",
+    "answer": "b",
+    "explanation": "Правая часть неотрицательна, x≥1. После возведения: x+1=(x−1)², корни 0 и 3; 0 посторонний.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "3"
+      },
+      {
+        "key": "b",
+        "text": "0"
+      },
+      {
+        "key": "c",
+        "text": "оба"
+      },
+      {
+        "key": "d",
+        "text": "посторонних нет"
+      }
+    ]
+  },
+  {
+    "id": "alg-inequalities-1",
+    "lessonId": "alg-inequalities",
+    "type": "input",
+    "prompt": "Решите неравенство 3x − 5 > 7. Введите наименьшее целое решение.",
+    "answer": "5",
+    "explanation": "3x>12, то есть x>4. Наименьшее целое решение — 5.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-inequalities-2",
+    "lessonId": "alg-inequalities",
+    "type": "choice",
+    "prompt": "Решите неравенство −2x ≤ 8. Существует ли наибольшее целое решение?",
+    "answer": "c",
+    "explanation": "При делении на −2 знак меняется: x≥−4. Подходящих целых бесконечно много, наибольшего среди них нет.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "−4"
+      },
+      {
+        "key": "b",
+        "text": "4"
+      },
+      {
+        "key": "c",
+        "text": "наибольшего целого решения нет"
+      },
+      {
+        "key": "d",
+        "text": "решений нет"
+      }
+    ]
+  },
+  {
+    "id": "alg-inequalities-3",
+    "lessonId": "alg-inequalities",
+    "type": "input",
+    "prompt": "Сколько целых чисел удовлетворяет −2 < x ≤ 3?",
+    "answer": "5",
+    "explanation": "Подходят −1, 0, 1, 2, 3 — всего пять чисел.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-inequalities-4",
+    "lessonId": "alg-inequalities",
+    "type": "input",
+    "prompt": "Решите 5 − x ≥ 1. Введите наибольшее целое решение.",
+    "answer": "4",
+    "explanation": "−x≥−4, значит x≤4. Наибольшее целое решение — 4.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-inequalities-5",
+    "lessonId": "alg-inequalities",
+    "type": "choice",
+    "prompt": "Какой промежуток соответствует x < −1 или x ≥ 2?",
+    "answer": "d",
+    "explanation": "Это объединение двух промежутков: (−∞;−1)∪[2;+∞).",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "[−1;2]"
+      },
+      {
+        "key": "b",
+        "text": "(−1;2)"
+      },
+      {
+        "key": "c",
+        "text": "(−∞;2]"
+      },
+      {
+        "key": "d",
+        "text": "(−∞;−1)∪[2;+∞)"
+      }
+    ]
+  },
+  {
+    "id": "alg-word-1",
+    "lessonId": "alg-word",
+    "type": "input",
+    "prompt": "Пешеход идёт со скоростью 5 км/ч 2,4 часа. Какой путь он пройдёт (км)?",
+    "answer": "12",
+    "explanation": "S=vt=5·2,4=12 км.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-word-2",
+    "lessonId": "alg-word",
+    "type": "input",
+    "prompt": "Два крана вместе выполняют работу за 6 ч. Первый один — за 10 ч. За сколько часов выполнит работу второй?",
+    "answer": "15",
+    "explanation": "Скорости: 1/6=1/10+1/x; 1/x=1/15, значит 15 ч.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-word-3",
+    "lessonId": "alg-word",
+    "type": "input",
+    "prompt": "Товар стоил 800 руб. Его цену повысили на 15%. Какова новая цена?",
+    "answer": "920",
+    "explanation": "15% от 800 равны 120; 800+120=920.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-word-4",
+    "lessonId": "alg-word",
+    "type": "input",
+    "prompt": "В 20 кг раствора 30% соли. Сколько килограммов соли в растворе?",
+    "answer": "6",
+    "explanation": "30% от 20 — это 0,3·20=6 кг.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-word-5",
+    "lessonId": "alg-word",
+    "type": "input",
+    "prompt": "Поезд прошёл 180 км. Первую половину пути он шёл 60 км/ч, вторую — 90 км/ч. Сколько часов длился весь путь?",
+    "answer": "2.5",
+    "explanation": "На каждую половину по 90 км: 90/60=1,5 ч и 90/90=1 ч. Всего 2,5 ч.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-absolute-1",
+    "lessonId": "alg-absolute",
+    "type": "input",
+    "prompt": "Решите |x − 3| = 5. Введите меньший корень.",
+    "answer": "-2",
+    "explanation": "x−3=5 или x−3=−5; корни 8 и −2.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-absolute-2",
+    "lessonId": "alg-absolute",
+    "type": "input",
+    "prompt": "Сколько целых решений имеет |2x + 1| < 5?",
+    "answer": "4",
+    "explanation": "−5<2x+1<5, значит −3<x<2. Целые: −2,−1,0,1.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-absolute-3",
+    "lessonId": "alg-absolute",
+    "type": "input",
+    "prompt": "Расстояние между точками −4 и 7 на числовой прямой равно:",
+    "answer": "11",
+    "explanation": "Расстояние равно |7−(−4)|=11.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-absolute-4",
+    "lessonId": "alg-absolute",
+    "type": "choice",
+    "prompt": "Высказывание «если число делится на 4, то оно чётное» является:",
+    "answer": "a",
+    "explanation": "Любое число, кратное 4, делится и на 2, поэтому высказывание истинно.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "истинным"
+      },
+      {
+        "key": "b",
+        "text": "ложным"
+      },
+      {
+        "key": "c",
+        "text": "иногда истинным"
+      },
+      {
+        "key": "d",
+        "text": "нельзя определить"
+      }
+    ]
+  },
+  {
+    "id": "alg-absolute-5",
+    "lessonId": "alg-absolute",
+    "type": "choice",
+    "prompt": "Решите |x| = −3. Сколько решений?",
+    "answer": "a",
+    "explanation": "Модуль неотрицателен, поэтому равенство невозможно.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "0"
+      },
+      {
+        "key": "b",
+        "text": "1"
+      },
+      {
+        "key": "c",
+        "text": "2"
+      },
+      {
+        "key": "d",
+        "text": "бесконечно много"
+      }
+    ]
+  },
+  {
+    "id": "alg-functions-1",
+    "lessonId": "alg-functions",
+    "type": "input",
+    "prompt": "Найдите y функции y=3x−2 при x=4.",
+    "answer": "10",
+    "explanation": "y=3·4−2=10.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-functions-2",
+    "lessonId": "alg-functions",
+    "type": "input",
+    "prompt": "Для y=−2x+5 найдите x, при котором y=−1.",
+    "answer": "3",
+    "explanation": "−2x+5=−1, −2x=−6, x=3.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-functions-3",
+    "lessonId": "alg-functions",
+    "type": "choice",
+    "prompt": "Через какую точку проходит график y=2x+1?",
+    "answer": "b",
+    "explanation": "При x=1 получаем y=3, следовательно, (1;3) лежит на графике.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "(0;0)"
+      },
+      {
+        "key": "b",
+        "text": "(1;3)"
+      },
+      {
+        "key": "c",
+        "text": "(2;1)"
+      },
+      {
+        "key": "d",
+        "text": "(−1;−3)"
+      }
+    ]
+  },
+  {
+    "id": "alg-functions-4",
+    "lessonId": "alg-functions",
+    "type": "input",
+    "prompt": "У функции y=−4x+7 угловой коэффициент равен:",
+    "answer": "-4",
+    "explanation": "В виде y=kx+b коэффициент k равен −4.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-functions-5",
+    "lessonId": "alg-functions",
+    "type": "input",
+    "prompt": "Функция y=5/x не определена при x =",
+    "answer": "0",
+    "explanation": "В знаменателе не может быть нуля.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-progressions-1",
+    "lessonId": "alg-progressions",
+    "type": "input",
+    "prompt": "В арифметической прогрессии a₁=4, d=3. Найдите a₅.",
+    "answer": "16",
+    "explanation": "a₅=a₁+4d=4+12=16.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-progressions-2",
+    "lessonId": "alg-progressions",
+    "type": "input",
+    "prompt": "В арифметической прогрессии 2, 5, 8, … найдите сумму первых 4 членов.",
+    "answer": "26",
+    "explanation": "Четвёртый член 11, сумма (2+5+8+11)=26.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-progressions-3",
+    "lessonId": "alg-progressions",
+    "type": "input",
+    "prompt": "В геометрической прогрессии b₁=3, q=2. Найдите b₄.",
+    "answer": "24",
+    "explanation": "b₄=3·2³=24.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-progressions-4",
+    "lessonId": "alg-progressions",
+    "type": "input",
+    "prompt": "Продолжите закономерность: 1, 4, 9, 16, … Введите следующий член.",
+    "answer": "25",
+    "explanation": "Это квадраты натуральных чисел: 1²,2²,3²,4²,5².",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-progressions-5",
+    "lessonId": "alg-progressions",
+    "type": "choice",
+    "prompt": "Какой вид имеет последовательность 10, 7, 4, 1, …?",
+    "answer": "b",
+    "explanation": "Разность соседних членов постоянна и равна −3: это арифметическая прогрессия.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "геометрическая, q=−3"
+      },
+      {
+        "key": "b",
+        "text": "арифметическая, d=−3"
+      },
+      {
+        "key": "c",
+        "text": "арифметическая, d=3"
+      },
+      {
+        "key": "d",
+        "text": "не является прогрессией"
+      }
+    ]
+  },
+  {
+    "id": "alg-combinatorics-1",
+    "lessonId": "alg-combinatorics",
+    "type": "input",
+    "prompt": "Сколько двузначных чисел можно составить из цифр 1, 2, 3 без повторений?",
+    "answer": "6",
+    "explanation": "На десятки 3 выбора, на единицы 2: 3·2=6.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-combinatorics-2",
+    "lessonId": "alg-combinatorics",
+    "type": "input",
+    "prompt": "Сколько способов выбрать капитана и заместителя из 5 учеников?",
+    "answer": "20",
+    "explanation": "На капитана 5 выборов, на заместителя остаётся 4: 5·4=20.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-combinatorics-3",
+    "lessonId": "alg-combinatorics",
+    "type": "input",
+    "prompt": "Какой остаток даёт 47 при делении на 5?",
+    "answer": "2",
+    "explanation": "47=5·9+2.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "alg-combinatorics-4",
+    "lessonId": "alg-combinatorics",
+    "type": "choice",
+    "prompt": "На какую цифру должно оканчиваться число, чтобы делиться на 5?",
+    "answer": "c",
+    "explanation": "Число делится на 5, если последняя цифра 0 или 5.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "только 0"
+      },
+      {
+        "key": "b",
+        "text": "только 5"
+      },
+      {
+        "key": "c",
+        "text": "0 или 5"
+      },
+      {
+        "key": "d",
+        "text": "чётная цифра"
+      }
+    ]
+  },
+  {
+    "id": "alg-combinatorics-5",
+    "lessonId": "alg-combinatorics",
+    "type": "input",
+    "prompt": "Сколько различных перестановок можно получить из букв А, Б, В?",
+    "answer": "6",
+    "explanation": "Три различные буквы можно переставить 3!=3·2·1=6 способами.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-congruence-1",
+    "lessonId": "geo-congruence",
+    "type": "input",
+    "prompt": "В равнобедренном треугольнике углы при основании по 68°. Найдите угол при вершине.",
+    "answer": "44",
+    "explanation": "Сумма углов 180°: 180−68−68=44°.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-congruence-2",
+    "lessonId": "geo-congruence",
+    "type": "choice",
+    "prompt": "У двух треугольников равны две стороны и угол между ними. Какой это признак равенства?",
+    "answer": "a",
+    "explanation": "Это первый признак: по двум сторонам и углу между ними.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "по двум сторонам и углу между ними"
+      },
+      {
+        "key": "b",
+        "text": "по стороне и двум прилежащим углам"
+      },
+      {
+        "key": "c",
+        "text": "по трём углам"
+      },
+      {
+        "key": "d",
+        "text": "по гипотенузе"
+      }
+    ]
+  },
+  {
+    "id": "geo-congruence-3",
+    "lessonId": "geo-congruence",
+    "type": "input",
+    "prompt": "В треугольнике ABC AB=AC, ∠B=53°. Найдите ∠C.",
+    "answer": "53",
+    "explanation": "В равнобедренном треугольнике углы при основании равны.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-congruence-4",
+    "lessonId": "geo-congruence",
+    "type": "input",
+    "prompt": "Периметр равностороннего треугольника равен 27 см. Найдите его сторону.",
+    "answer": "9",
+    "explanation": "Все три стороны равны: 27/3=9 см.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-congruence-5",
+    "lessonId": "geo-congruence",
+    "type": "drag",
+    "prompt": "Соотнесите вершину треугольника с противоположной стороной.",
+    "answer": {
+      "A": "BC",
+      "B": "AC",
+      "C": "AB"
+    },
+    "explanation": "Противоположная вершине сторона не содержит эту вершину.",
+    "tolerance": 0.01,
+    "items": [
+      "A",
+      "B",
+      "C"
+    ],
+    "targets": [
+      "AB",
+      "AC",
+      "BC"
+    ]
+  },
+  {
+    "id": "geo-similarity-1",
+    "lessonId": "geo-similarity",
+    "type": "input",
+    "prompt": "Два подобных треугольника имеют коэффициент подобия 3. Меньшая сторона 4 см. Найдите соответствующую большую сторону.",
+    "answer": "12",
+    "explanation": "Соответствующие стороны относятся как 1:3, поэтому 4·3=12.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-similarity-2",
+    "lessonId": "geo-similarity",
+    "type": "input",
+    "prompt": "В треугольнике прямая, параллельная основанию, отсекает подобный треугольник. Если малое основание 6, большое 15, а соответствующая боковая сторона малого 4, найдите боковую сторону большого.",
+    "answer": "10",
+    "explanation": "Коэффициент 15/6=2,5; 4·2,5=10.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-similarity-3",
+    "lessonId": "geo-similarity",
+    "type": "choice",
+    "prompt": "По какому набору данных можно доказать подобие треугольников?",
+    "answer": "b",
+    "explanation": "Достаточно равенства двух углов: третий тоже будет равен.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "равны три стороны"
+      },
+      {
+        "key": "b",
+        "text": "равны два угла"
+      },
+      {
+        "key": "c",
+        "text": "равны одна сторона и один угол"
+      },
+      {
+        "key": "d",
+        "text": "равны периметры"
+      }
+    ]
+  },
+  {
+    "id": "geo-similarity-4",
+    "lessonId": "geo-similarity",
+    "type": "input",
+    "prompt": "Периметры подобных треугольников относятся как 2:5. Малый периметр 18. Найдите большой.",
+    "answer": "45",
+    "explanation": "Коэффициент подобия 5/2, поэтому 18·5/2=45.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-similarity-5",
+    "lessonId": "geo-similarity",
+    "type": "choice",
+    "prompt": "Треугольники со сторонами 3,4,5 и 6,8,10:",
+    "answer": "a",
+    "explanation": "Все соответствующие стороны второго в 2 раза больше; треугольники подобны.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "подобны"
+      },
+      {
+        "key": "b",
+        "text": "равны"
+      },
+      {
+        "key": "c",
+        "text": "не подобны"
+      },
+      {
+        "key": "d",
+        "text": "нельзя определить"
+      }
+    ]
+  },
+  {
+    "id": "geo-pythagoras-1",
+    "lessonId": "geo-pythagoras",
+    "type": "input",
+    "prompt": "Катеты прямоугольного треугольника равны 6 и 8. Найдите гипотенузу.",
+    "answer": "10",
+    "explanation": "c²=6²+8²=36+64=100, c=10.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-pythagoras-2",
+    "lessonId": "geo-pythagoras",
+    "type": "input",
+    "prompt": "Гипотенуза равна 13, один катет 5. Найдите второй катет.",
+    "answer": "12",
+    "explanation": "b²=13²−5²=169−25=144, b=12.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-pythagoras-3",
+    "lessonId": "geo-pythagoras",
+    "type": "choice",
+    "prompt": "Медиана — это отрезок, соединяющий вершину с:",
+    "answer": "b",
+    "explanation": "Медиана соединяет вершину с серединой противоположной стороны.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "основанием высоты"
+      },
+      {
+        "key": "b",
+        "text": "серединой противоположной стороны"
+      },
+      {
+        "key": "c",
+        "text": "точкой пересечения биссектрис"
+      },
+      {
+        "key": "d",
+        "text": "любой точкой стороны"
+      }
+    ]
+  },
+  {
+    "id": "geo-pythagoras-4",
+    "lessonId": "geo-pythagoras",
+    "type": "input",
+    "prompt": "В прямоугольном треугольнике один острый угол 35°. Найдите другой острый угол.",
+    "answer": "55",
+    "explanation": "Острые углы прямоугольного треугольника в сумме дают 90°.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-pythagoras-5",
+    "lessonId": "geo-pythagoras",
+    "type": "drag",
+    "prompt": "Соотнесите отрезок с его определением в треугольнике.",
+    "answer": {
+      "медиана": "середина стороны",
+      "высота": "перпендикуляр",
+      "биссектриса": "делит угол"
+    },
+    "explanation": "Медиана идёт к середине, высота перпендикулярна стороне, биссектриса делит угол пополам.",
+    "tolerance": 0.01,
+    "items": [
+      "медиана",
+      "высота",
+      "биссектриса"
+    ],
+    "targets": [
+      "середина стороны",
+      "перпендикуляр",
+      "делит угол"
+    ]
+  },
+  {
+    "id": "geo-quadrilateral-1",
+    "lessonId": "geo-quadrilateral",
+    "type": "input",
+    "prompt": "Сумма углов выпуклого четырёхугольника равна:",
+    "answer": "360",
+    "explanation": "Его можно разбить диагональю на два треугольника: 180°+180°=360°.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-quadrilateral-2",
+    "lessonId": "geo-quadrilateral",
+    "type": "input",
+    "prompt": "У параллелограмма одна сторона 7 см, другая 11 см. Найдите периметр.",
+    "answer": "36",
+    "explanation": "P=2(a+b)=2·(7+11)=36.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-quadrilateral-3",
+    "lessonId": "geo-quadrilateral",
+    "type": "choice",
+    "prompt": "Диагонали ромба:",
+    "answer": "c",
+    "explanation": "У ромба диагонали перпендикулярны и делят его углы пополам.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "всегда равны"
+      },
+      {
+        "key": "b",
+        "text": "всегда параллельны"
+      },
+      {
+        "key": "c",
+        "text": "перпендикулярны"
+      },
+      {
+        "key": "d",
+        "text": "не пересекаются"
+      }
+    ]
+  },
+  {
+    "id": "geo-quadrilateral-4",
+    "lessonId": "geo-quadrilateral",
+    "type": "input",
+    "prompt": "Площадь прямоугольника со сторонами 9 и 4 равна:",
+    "answer": "36",
+    "explanation": "S=ab=9·4=36.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-quadrilateral-5",
+    "lessonId": "geo-quadrilateral",
+    "type": "input",
+    "prompt": "Основания трапеции 8 и 14. Найдите её среднюю линию.",
+    "answer": "11",
+    "explanation": "Средняя линия равна полусумме оснований: (8+14)/2=11.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-circle-1",
+    "lessonId": "geo-circle",
+    "type": "input",
+    "prompt": "Центральный угол, опирающийся на дугу, равен 100°. Чему равен вписанный угол, опирающийся на ту же дугу?",
+    "answer": "50",
+    "explanation": "Вписанный угол равен половине центрального, опирающегося на ту же дугу.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-circle-2",
+    "lessonId": "geo-circle",
+    "type": "input",
+    "prompt": "Радиус окружности равен 7. Найдите диаметр.",
+    "answer": "14",
+    "explanation": "Диаметр равен двум радиусам: 2·7=14.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-circle-3",
+    "lessonId": "geo-circle",
+    "type": "choice",
+    "prompt": "Касательная к окружности в точке касания перпендикулярна:",
+    "answer": "a",
+    "explanation": "Касательная перпендикулярна радиусу, проведённому в точку касания.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "радиусу"
+      },
+      {
+        "key": "b",
+        "text": "диаметру всегда"
+      },
+      {
+        "key": "c",
+        "text": "любой хорде"
+      },
+      {
+        "key": "d",
+        "text": "секущей всегда"
+      }
+    ]
+  },
+  {
+    "id": "geo-circle-4",
+    "lessonId": "geo-circle",
+    "type": "input",
+    "prompt": "Хорда, проходящая через центр окружности, называется:",
+    "answer": "диаметром",
+    "explanation": "Хорда через центр имеет наибольшую длину и называется диаметром.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-circle-5",
+    "lessonId": "geo-circle",
+    "type": "drag",
+    "prompt": "Соотнесите объект окружности с описанием.",
+    "answer": {
+      "радиус": "центр-точка",
+      "хорда": "две точки",
+      "касательная": "одна точка"
+    },
+    "explanation": "Радиус соединяет центр и окружность; хорда имеет два конца на окружности; касательная имеет одну общую точку.",
+    "tolerance": 0.01,
+    "items": [
+      "радиус",
+      "хорда",
+      "касательная"
+    ],
+    "targets": [
+      "центр-точка",
+      "две точки",
+      "одна точка"
+    ]
+  },
+  {
+    "id": "geo-area-1",
+    "lessonId": "geo-area",
+    "type": "input",
+    "prompt": "Найдите площадь треугольника с основанием 12 и высотой 5.",
+    "answer": "30",
+    "explanation": "S=½ah=½·12·5=30.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-area-2",
+    "lessonId": "geo-area",
+    "type": "input",
+    "prompt": "Площадь параллелограмма равна 48, его основание 8. Найдите высоту.",
+    "answer": "6",
+    "explanation": "S=ah, поэтому h=48/8=6.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-area-3",
+    "lessonId": "geo-area",
+    "type": "input",
+    "prompt": "Найдите площадь ромба с диагоналями 10 и 6.",
+    "answer": "30",
+    "explanation": "S=d₁d₂/2=10·6/2=30.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-area-4",
+    "lessonId": "geo-area",
+    "type": "input",
+    "prompt": "Площадь квадрата равна 81. Найдите его сторону.",
+    "answer": "9",
+    "explanation": "Сторона равна √81=9.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-area-5",
+    "lessonId": "geo-area",
+    "type": "choice",
+    "prompt": "Формула площади трапеции:",
+    "answer": "b",
+    "explanation": "Площадь равна полусумме оснований, умноженной на высоту.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "(a+b)h"
+      },
+      {
+        "key": "b",
+        "text": "(a+b)h/2"
+      },
+      {
+        "key": "c",
+        "text": "ah/2"
+      },
+      {
+        "key": "d",
+        "text": "ab"
+      }
+    ]
+  },
+  {
+    "id": "geo-vectors-1",
+    "lessonId": "geo-vectors",
+    "type": "input",
+    "prompt": "Вектор a=(3,−2). Найдите сумму его координат.",
+    "answer": "1",
+    "explanation": "3+(−2)=1.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-vectors-2",
+    "lessonId": "geo-vectors",
+    "type": "input",
+    "prompt": "Найдите длину вектора (3,4).",
+    "answer": "5",
+    "explanation": "Длина √(3²+4²)=√25=5.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-vectors-3",
+    "lessonId": "geo-vectors",
+    "type": "input",
+    "prompt": "Точка A(−2,5) сдвинута на вектор (4,−3). Найдите абсциссу новой точки.",
+    "answer": "2",
+    "explanation": "К абсциссе прибавляем 4: −2+4=2.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-vectors-4",
+    "lessonId": "geo-vectors",
+    "type": "choice",
+    "prompt": "Вектор, равный сумме (1,2)+(3,−5), равен:",
+    "answer": "c",
+    "explanation": "Складываем соответствующие координаты: (1+3, 2−5)=(4,−3).",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "(2,−3)"
+      },
+      {
+        "key": "b",
+        "text": "(4,7)"
+      },
+      {
+        "key": "c",
+        "text": "(4,−3)"
+      },
+      {
+        "key": "d",
+        "text": "(3,−5)"
+      }
+    ]
+  },
+  {
+    "id": "geo-vectors-5",
+    "lessonId": "geo-vectors",
+    "type": "input",
+    "prompt": "Расстояние между точками (0,0) и (0,6) равно:",
+    "answer": "6",
+    "explanation": "Точки лежат на оси y, расстояние |6−0|=6.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-constructions-1",
+    "lessonId": "geo-constructions",
+    "type": "choice",
+    "prompt": "Какое место точек равноудалено от концов отрезка AB?",
+    "answer": "b",
+    "explanation": "Это серединный перпендикуляр к AB.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "прямая AB"
+      },
+      {
+        "key": "b",
+        "text": "серединный перпендикуляр к AB"
+      },
+      {
+        "key": "c",
+        "text": "любая окружность с центром A"
+      },
+      {
+        "key": "d",
+        "text": "биссектриса любого угла"
+      }
+    ]
+  },
+  {
+    "id": "geo-constructions-2",
+    "lessonId": "geo-constructions",
+    "type": "choice",
+    "prompt": "Какое место точек равноудалено от сторон угла?",
+    "answer": "a",
+    "explanation": "Это биссектриса угла.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "биссектриса угла"
+      },
+      {
+        "key": "b",
+        "text": "высота"
+      },
+      {
+        "key": "c",
+        "text": "медиана"
+      },
+      {
+        "key": "d",
+        "text": "окружность"
+      }
+    ]
+  },
+  {
+    "id": "geo-constructions-3",
+    "lessonId": "geo-constructions",
+    "type": "input",
+    "prompt": "Чтобы построить середину отрезка циркулем и линейкой, нужно провести:",
+    "answer": "серединный перпендикуляр",
+    "explanation": "Дуги одинакового радиуса из концов отрезка дают две точки; прямая через них — серединный перпендикуляр.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-constructions-4",
+    "lessonId": "geo-constructions",
+    "type": "input",
+    "prompt": "Сколько общих точек могут иметь две различные окружности?",
+    "answer": "2",
+    "explanation": "Максимум две; возможны также 0 или 1.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-constructions-5",
+    "lessonId": "geo-constructions",
+    "type": "drag",
+    "prompt": "Соотнесите построение с первым действием.",
+    "answer": {
+      "середина отрезка": "дуги из концов",
+      "биссектриса": "дуга из вершины",
+      "параллельная": "угол с секущей"
+    },
+    "explanation": "Это основные схемы построений циркулем и линейкой.",
+    "tolerance": 0.01,
+    "items": [
+      "середина отрезка",
+      "биссектриса",
+      "параллельная"
+    ],
+    "targets": [
+      "дуги из концов",
+      "дуга из вершины",
+      "угол с секущей"
+    ]
+  },
+  {
+    "id": "geo-mixed-1",
+    "lessonId": "geo-mixed",
+    "type": "input",
+    "prompt": "Прямоугольный треугольник имеет катеты 9 и 12. Найдите его площадь.",
+    "answer": "54",
+    "explanation": "S=½·9·12=54.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-mixed-2",
+    "lessonId": "geo-mixed",
+    "type": "input",
+    "prompt": "В равнобедренном треугольнике боковые стороны 13, основание 10. Найдите высоту к основанию.",
+    "answer": "12",
+    "explanation": "Высота делит основание пополам: получаем √(13²−5²)=√144=12.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-mixed-3",
+    "lessonId": "geo-mixed",
+    "type": "input",
+    "prompt": "Периметр квадрата равен 24. Найдите длину его диагонали.",
+    "answer": "6√2",
+    "explanation": "Сторона равна 6, диагональ квадрата a√2=6√2.",
+    "tolerance": 0.01
+  },
+  {
+    "id": "geo-mixed-4",
+    "lessonId": "geo-mixed",
+    "type": "choice",
+    "prompt": "Круг имеет радиус 3. Его площадь равна:",
+    "answer": "c",
+    "explanation": "S=πr²=9π.",
+    "tolerance": 0.01,
+    "choices": [
+      {
+        "key": "a",
+        "text": "6π"
+      },
+      {
+        "key": "b",
+        "text": "3π"
+      },
+      {
+        "key": "c",
+        "text": "9π"
+      },
+      {
+        "key": "d",
+        "text": "12π"
+      }
+    ]
+  },
+  {
+    "id": "geo-mixed-5",
+    "lessonId": "geo-mixed",
+    "type": "input",
+    "prompt": "В треугольнике стороны 5, 5, 8. Найдите его периметр.",
+    "answer": "18",
+    "explanation": "Периметр — сумма сторон: 5+5+8=18.",
+    "tolerance": 0.01
+  }
+]
