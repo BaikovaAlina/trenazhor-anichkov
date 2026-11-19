@@ -203,7 +203,11 @@
     function renderCurrent() {
       const set = group();
       if (taskIndex >= set.length) {
-        renderHomeworkDone(taskHost, lesson, tasks, openedAt);
+        if (mode === 'class') {
+          renderClassworkDone(taskHost, () => { mode = 'homework'; taskIndex = 0; updateTabs(); renderCurrent(); });
+        } else {
+          renderHomeworkDone(taskHost, lesson, tasks, openedAt);
+        }
         return;
       }
       renderTask(taskHost, set[taskIndex], {
@@ -220,6 +224,11 @@
       renderCurrent();
     }));
     renderCurrent();
+  }
+
+  function renderClassworkDone(host, continueToHomework) {
+    host.innerHTML = `<div class="homework-card"><span class="tag">Классная работа</span><h3>Классная работа готова!</h3><p>Ты решил первые три задачи. Теперь переходи к домашнему заданию: там ещё две задачи по этой теме.</p><button id="go-homework" class="button button-primary">Перейти к домашнему заданию →</button></div>`;
+    host.querySelector('#go-homework').addEventListener('click', continueToHomework);
   }
 
   function renderHomeworkDone(host, lesson, tasks, openedAt) {
