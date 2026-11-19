@@ -1,0 +1,53 @@
+name: Deploy static site to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # config.js is created only in the deployment workspace and ignored by git.
+      # Note: a static browser app cannot make the bot token secret from visitors.
+      - name: Inject Telegram runtime configuration
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+        run: |
+          test -n "$BOT_TOKEN"
+          test -n "$TG_CHAT_ID"
+          cat > js/config.js <<EOF
+          window.TELEGRAM_CONFIG = {
+            BOT_TOKEN: "$BOT_TOKEN",
+            CHAT_ID: "$TG_CHAT_ID"
+          };
+          EOF
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
