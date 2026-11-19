@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4f46e5">
+  <title>Физмат-тренажёр · поступление в 8 класс</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">К списку уроков</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span aria-hidden="true">∑</span> Физмат-тренажёр</a>
+    <nav aria-label="Основная навигация">
+      <a class="nav-active" href="index.html">Уроки</a>
+      <a href="trainer.html">Тренажёр</a>
+      <a href="stats.html">Статистика</a>
+    </nav>
+  </header>
+  <main id="main" class="container">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">6–7 класс → поступление в 8 класс</p>
+        <h1>Готовься в своём темпе</h1>
+        <p class="lead">Задачи по алгебре и геометрии для поступления в физико-математический лицей. Решай, сразу проверяй себя и отправляй готовое ДЗ преподавателю.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="trainer.html">Начать тренировку <span aria-hidden="true">→</span></a>
+          <a class="button button-light" href="#lessons">Выбрать тему</a>
+        </div>
+      </div>
+      <aside class="hero-badge" aria-label="Возможности тренажёра">
+        <span class="badge-icon" aria-hidden="true">✓</span>
+        <strong>105 задач</strong>
+        <span>21 тема · ответы и разборы</span>
+      </aside>
+    </section>
+    <section class="dashboard-strip" aria-label="Быстрые действия">
+      <a href="trainer.html" class="strip-card"><span aria-hidden="true">⚡</span><b>Быстрый старт</b><small>случайные задачи</small></a>
+      <a href="stats.html" class="strip-card"><span aria-hidden="true">★</span><b>Мой прогресс</b><small id="header-progress">загружаем…</small></a>
+      <a href="#how" class="strip-card"><span aria-hidden="true">?</span><b>Как заниматься</b><small>короткая инструкция</small></a>
+    </section>
+    <section id="lessons" class="section-heading">
+      <div><p class="eyebrow">Программа</p><h2>Выбери урок</h2></div>
+      <div class="filters" role="group" aria-label="Фильтр уроков">
+        <button class="filter is-selected" data-filter="all">Все</button>
+        <button class="filter" data-filter="Алгебра">Алгебра</button>
+        <button class="filter" data-filter="Геометрия">Геометрия</button>
+      </div>
+    </section>
+    <div id="lesson-groups" class="lesson-groups" aria-live="polite"><p class="loading">Загружаем программу…</p></div>
+    <section id="how" class="how-card">
+      <div class="how-number">1</div><p><b>Выбери тему.</b> Начинай с базового уровня, затем переходи к углублённому.</p>
+      <div class="how-number">2</div><p><b>Решай без подсказки.</b> После проверки сразу увидишь верный ход решения.</p>
+      <div class="how-number">3</div><p><b>Отправь ДЗ.</b> Имя и результат уйдут преподавателю в Telegram.</p>
+    </section>
+  </main>
+  <footer>Физмат-тренажёр · подготовка к поступлению в 8 класс</footer>
+  <script src="js/config.js" defer></script>
+  <script src="js/tasks.js" defer></script>
+  <script src="js/checker.js" defer></script>
+  <script src="js/telegram.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>
