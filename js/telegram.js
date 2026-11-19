@@ -29,10 +29,11 @@
       `Результат: ${report.correct}/${report.total}`,
       `Время: ${formatTime(report.seconds)}`
     ].join('\n');
+    // URLSearchParams keeps this a CORS-safelisted form request. That avoids a
+    // preflight request on mobile browsers while Telegram returns CORS headers.
     const response = await fetch(`https://api.telegram.org/bot${config.BOT_TOKEN}/sendMessage`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ chat_id: config.CHAT_ID, text })
+      body: new URLSearchParams({ chat_id: String(config.CHAT_ID), text })
     });
     const data = await response.json().catch(() => ({}));
     if (!response.ok || !data.ok) throw new Error(data.description || `Telegram вернул ошибку ${response.status}.`);
